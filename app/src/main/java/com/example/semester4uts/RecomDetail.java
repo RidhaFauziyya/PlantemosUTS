@@ -143,6 +143,8 @@ public class RecomDetail extends AppCompatActivity implements SensorEventListene
         int sensorType = event.sensor.getType();
         currentValue = event.values[0];
 
+        currentValue = (float) (currentValue * 0.092903);
+
         if (currentValue >= 400 ){
             type.setText(R.string.full_light_type);
             desc.setText(R.string.desc_full);
