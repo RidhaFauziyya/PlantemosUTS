@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/main_toolbar"/>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="25dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/des"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:background="@drawable/card_rounded"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="10dp"
+                android:textColor="@color/purple_700"
+                android:text="@string/app_desc"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/type_title"
+                android:textColor="@color/purple_700"
+                android:textStyle="bold"
+                android:text="@string/title_type"
+                app:layout_constraintTop_toBottomOf="@id/des"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="20dp"/>
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/type_full"
+                android:text="@string/full_light_type"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="10dp"
+                android:background="@drawable/card_circle"
+                app:layout_constraintTop_toBottomOf="@id/type_title"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="20dp"
+                android:textSize="12dp"/>
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/type_spring"
+                android:text="@string/spring_light_type"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="10dp"
+                android:background="@drawable/card_circle"
+                app:layout_constraintTop_toBottomOf="@id/type_title"
+                app:layout_constraintStart_toEndOf="@id/type_full"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="23dp"
+                android:textSize="12dp"/>
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/type_low"
+                android:text="@string/low_light_type"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="10dp"
+                android:background="@drawable/card_circle"
+                app:layout_constraintTop_toBottomOf="@id/type_title"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="20dp"
+                android:textSize="12dp"/>
+
+            <FrameLayout
+                android:id="@+id/fragment_container_full"
+                android:name="com.example.semester4uts.ShowMoreFragment"
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                tools:layout="@layout/fragment_full"
+                app:layout_constraintTop_toBottomOf="@+id/type_full"/>
+
+            <FrameLayout
+                android:id="@+id/fragment_container_spring"
+                android:name="com.example.semester4uts.ShowMoreFragment"
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                tools:layout="@layout/fragment_spring"
+                app:layout_constraintTop_toBottomOf="@+id/type_full"/>
+
+            <FrameLayout
+                android:id="@+id/fragment_container_low"
+                android:name="com.example.semester4uts.ShowMoreFragment"
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                tools:layout="@layout/fragment_low"
+                app:layout_constraintTop_toBottomOf="@+id/type_full"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/white">
+
+        <include
+            layout="@layout/main_nav_drawer"/>
+
+    </RelativeLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

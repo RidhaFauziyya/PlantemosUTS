@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    tools:context=".Recomendation">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/main_toolbar"/>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="25dp">
+            <TextView
+                android:id="@+id/title_recom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/plant_recommendations"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/purple_700"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/your_location"
+                android:id="@+id/title_location"
+                app:layout_constraintTop_toBottomOf="@id/title_recom"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="25dp"
+                android:textColor="@color/purple_700"
+                android:textStyle="bold"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/getLocation"
+                android:text="@string/get_your_location"
+                android:textSize="11dp"
+                app:layout_constraintTop_toBottomOf="@id/title_location"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintTop_toBottomOf="@id/getLocation"
+                android:id="@+id/show_location_result"
+                app:layout_constraintStart_toStartOf="parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/fragment_location"
+                    android:orientation="vertical"
+                    android:layout_gravity="bottom"
+                    android:padding="20dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/country"
+                            android:id="@+id/currentCountry"
+                            android:textColor="@color/purple_700"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/dot"
+                            android:textColor="@color/purple_700"/>
+
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/result_currentCountry"
+                            android:background="@drawable/card_rounded"
+                            android:hint="@string/country"
+                            android:paddingVertical="3dp"
+                            android:paddingHorizontal="8dp"
+                            android:textColor="@color/purple_700"
+                            android:layout_marginStart="20dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="15dp">
+
+                        <TextView
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/state"
+                            android:id="@+id/currentState"
+                            android:textColor="@color/purple_700"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/dot"
+                            android:textColor="@color/purple_700"/>
+
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/result_currentState"
+                            android:background="@drawable/card_rounded"
+                            android:hint="@string/state"
+                            android:paddingVertical="3dp"
+                            android:paddingHorizontal="8dp"
+                            android:textColor="@color/purple_700"
+                            android:layout_marginStart="20dp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="15dp">
+
+                        <TextView
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/city"
+                            android:id="@+id/currentCity"
+                            android:textColor="@color/purple_700"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/dot"
+                            android:textColor="@color/purple_700"/>
+
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/result_currentCity"
+                            android:background="@drawable/card_rounded"
+                            android:hint="@string/city"
+                            android:paddingVertical="3dp"
+                            android:paddingHorizontal="8dp"
+                            android:textColor="@color/purple_700"
+                            android:layout_marginStart="20dp"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="15dp">
+
+                        <TextView
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/address"
+                            android:id="@+id/currentAddress"
+                            android:textColor="@color/purple_700"
+                            android:textStyle="bold"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/dot"
+                            android:textColor="@color/purple_700"/>
+
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/result_currentAddress"
+                            android:background="@drawable/card_rounded"
+                            android:hint="@string/address"
+                            android:paddingVertical="3dp"
+                            android:paddingHorizontal="8dp"
+                            android:textColor="@color/purple_700"
+                            android:layout_marginStart="20dp"/>
+
+                    </LinearLayout>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/getMaps"
+                        android:text="@string/maps"
+                        android:layout_marginTop="15dp"
+                        android:layout_gravity="center_horizontal"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/recomendation1"
+                android:id="@+id/title_recom2"
+                app:layout_constraintTop_toBottomOf="@id/show_location_result"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="25dp"
+                android:textColor="@color/purple_700"
+                android:textStyle="bold"/>
+
+            <FrameLayout
+                android:id="@+id/fragment_container"
+                android:name="com.example.semester4uts.ShowMoreFragment"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                tools:layout="@layout/fragment_show_location"
+                app:layout_constraintTop_toBottomOf="@+id/title_recom2"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/white">
+
+        <include
+            layout="@layout/main_nav_drawer"/>
+
+    </RelativeLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

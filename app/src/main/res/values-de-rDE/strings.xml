@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Plantemos</string>
+    <string name="change_languange">Sprache ändern</string>
+    <string name="plant_recommendations">Pflanzenempfehlungen</string>
+    <string name="message">Bist du sicher, dass du aufhörst?</string>
+    <string name="ornamental_recom">Empfehlungen für Zierpflanzen</string>
+    <string name="get_your_location">Holen Sie sich Ihren Standort!</string>
+    <string name="show_less">Weniger anzeigen</string>
+    <string name="your_location">Ihr Standort</string>
+    <string name="country">Land</string>
+    <string name="state">Staat</string>
+    <string name="recomendation1">Empfehlung anzeigen:</string>
+    <string name="city">Stadt</string>
+    <string name="address">Anschrift</string>
+    <string name="maps">Maps</string>
+    <string name="type">Art</string>
+    <string name="show">Karte</string>
+    <string name="example">Pflanzenbeispiel</string>
+    <string name="full_light_type">Volles Licht</string>
+    <string name="spring_light_type">Frühlingslicht</string>
+    <string name="low_light_type">Schwaches Licht</string>
+    <string name="desc">Beschreibung</string>
+    <string name="desc_full">Arten von Zierpflanzen aus dieser Gruppe sollten in einem Raum aufgestellt werden, der Raumlicht von 400 – 800 Fußkerzen erhält, oder wenn nicht, müssen diese Arten von Zierpflanzen in Innenräumen an einem Ort aufgestellt werden, der dem Sonnenlicht ausgesetzt ist, z. B. in der Nähe eines Fensters.</string>
+    <string name="desc_spring">Arten von Zierpflanzen aus dieser Gruppe werden am besten an einem Ort aufgestellt, der 2-3 Stunden lang voller Sonne ausgesetzt ist, oder in einem Raum mit Raumlichtern, die Licht von 200 – 400 Fußkerzen liefern.</string>
+    <string name="desc_low">Pflanzen aus dieser Gruppe tun gut, auch in dunklen Ecken eines Raumes oder von einem Licht, das nur 50 – 200 Fuß Kerze produziert. In der Praxis müssen die obigen Lampenanforderungen nicht genau sein, sondern können variieren.</string>
+    <string name="full_2">Chlorophytum sp</string>
+    <string name="full_3">Umbrella Grass</string>
+    <string name="full_1">Gelbe Palme</string>
+    <string name="spring_2">Rhoeo Discolor</string>
+    <string name="spring_1">African Violet</string>
+    <string name="spring_3">Zierkaladium</string>
+    <string name="low_1">Schwiegermuttersprache</string>
+    <string name="low_2">Tausendfüßlerfarn</string>
+    <string name="low_3">Lockenfarn</string>
+    <string name="light_value">Lichtwert</string>
+    <string name="light_range">Lichtbereich</string>
+    <string name="light_title_widget">Lichtwert an Ihrem Standort:</string>
+    <string name="title_type">Arten von Zierpflanzen basierend auf der erforderlichen Lichtintensität :</string>
+    <string name="app_desc">Plantemos ist eine Anwendung, die Informationen zu Empfehlungen für Zierpflanzen bereitstellt, die zum Pflanzen geeignet sind, basierend auf der Lichtintensität des Standorts des Benutzers.</string>
+    <string name="go">LOS!</string>
+    <string name="style">Nachtmodus</string>
+    <string name="types_of_plants">Arten von Pflanzen basierend auf dem Bedarf an Licht :</string>
+    <string name="get">Holen Sie sich Empfehlungen für Pflanzen, die für die Bepflanzung an Ihrem Standort und in Ihrer Umgebung geeignet sind!</string>
+</resources>

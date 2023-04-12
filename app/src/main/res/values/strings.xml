@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Plantemos</string>
+    <string name="title_activity_maps" translatable="false">MapsActivity</string>
+    <string name="change_languange">Change Languange</string>
+
+    <string name="message">Are you sure to quite?</string>
+    <string name="plant_recommendations">Plant Recommendations</string>
+    <string name="ornamental_recom">Ornamental Plant Recommendations</string>
+    <string name="your_location">Your Location</string>
+    <string name="get_your_location">Get Your Location!</string>
+    <string name="show_less">Show Less</string>
+    <string name="recomendation1">Show Recomendation:</string>
+    <string name="country">Country</string>
+    <string name="dot" translatable="false">:</string>
+    <string name="state">State</string>
+    <string name="city">City</string>
+    <string name="address">Address</string>
+    <string name="maps">Maps</string>
+    <string name="show">Show</string>
+    <string name="type">Type</string>
+    <string name="example">Plant Example</string>
+    <string name="full_light_type">Full Light</string>
+    <string name="spring_light_type">Spring Light</string>
+    <string name="low_light_type">Low Light</string>
+    <string name="desc">Description</string>
+    <string name="desc_full">Types of ornamental plants from this group should be placed in a room that gets room light from 400 – 800 foot candles, or if not, these types of indoor ornamental plants must be placed in a place exposed to sunlight such as near a window.</string>
+    <string name="desc_spring">Types of ornamental plants from this group are best placed in a place that gets full sun for 2-3 hours, or if in a room with room lights that provide light from 200 – 400 foot candles.</string>
+    <string name="desc_low">Plants from this group do well, even in dim corners of a room or from a light that produces only 50 – 200 feet of candle. In practice the above lamp requirements do not have to be exact but can vary.</string>
+
+    <string name="full_1">Yellow palm</string>
+    <string name="full_2">Chlorophytum sp</string>
+    <string name="full_3">Umbrella Grass</string>
+
+    <string name="spring_1">African Violet</string>
+    <string name="spring_2">Rhoeo Discolor</string>
+    <string name="spring_3">Ornamental Caladium</string>
+
+    <string name="low_1">Mother-in-laws tongue</string>
+    <string name="low_2">Centipede Fern</string>
+    <string name="low_3">Curly Fern</string>
+
+    <string name="light_value">Light Value</string>
+    <string name="light_range">Light Range</string>
+
+    <string name="range_full" translatable="false">400 - 800 footcandles</string>
+    <string name="range_spring" translatable="false">200 - 400 footcandles</string>
+    <string name="range_low" translatable="false">50 - 200 footcandles</string>
+    <string name="light_title_widget">Light value in your location:</string>
+    <string name="app_desc">Plantemos is an application that provides information on recommendations for ornamental plants that are suitable for planting based on the light intensity of the user\'s location.</string>
+    <string name="title_type">Types Of Ornamental Plants Based On The Required Light Intensity :</string>
+
+    <string name="style">Light Mode</string>
+
+    <string name="go">GO!</string>
+    <string name="types_of_plants">Types of plants based on the need for light :</string>
+    <string name="get">Get recommendations for plants that are suitable for planting in your location and environment!</string>
+
+</resources>

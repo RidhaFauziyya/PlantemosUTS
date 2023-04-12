@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Plantemos</string>
+    <string name="change_languange">Ganti Bahasa</string>
+    <string name="message">Apakah Anda yakin Ingin Keluar?</string>
+    <string name="plant_recommendations">Rekomendasi Tanaman</string>
+    <string name="ornamental_recom">Rekomendasi Tanaman Hias</string>
+    <string name="your_location">Lokasi Anda</string>
+    <string name="get_your_location">Dapatkan Lokasi Anda!</string>
+    <string name="show_less">Tampilkan Lebih Sedikit</string>
+    <string name="recomendation1">Tampilkan Rekomendasi:</string>
+    <string name="country">Negara</string>
+    <string name="state">Provinsi</string>
+    <string name="city">Kota</string>
+    <string name="address">Alamat</string>
+    <string name="maps">Peta</string>
+    <string name="show">Tampilkan</string>
+    <string name="type">Tipe</string>
+    <string name="example">Contoh Tanaman</string>
+    <string name="full_light_type">Cahaya Penuh</string>
+    <string name="spring_light_type">Cahaya Semi</string>
+    <string name="low_light_type">Cahaya Teduh</string>
+    <string name="desc">Deskripsi</string>
+    <string name="desc_full">Jenis tanaman hias dari kelompok ini sebaiknya ditempatkan di ruangan yang mendapat penerangan ruangan dari lilin setinggi 400 – 800 kaki, atau jika tidak, jenis tanaman hias dalam ruangan ini harus ditempatkan di tempat yang terkena sinar matahari seperti di dekat jendela.</string>
+    <string name="desc_spring">Jenis tanaman hias dari kelompok ini paling baik ditempatkan di tempat yang mendapat sinar matahari penuh selama 2-3 jam, atau jika di ruangan dengan lampu ruangan yang memberikan cahaya dari lilin setinggi 200 – 400 kaki.</string>
+    <string name="desc_low">Tanaman dari kelompok ini tumbuh dengan baik, bahkan di sudut ruangan yang redup atau dari cahaya yang hanya menghasilkan lilin setinggi 50-200 kaki. Dalam prakteknya persyaratan lampu di atas tidak harus tepat tetapi bisa bermacam-macam.</string>
+    <string name="full_2">Lili Paris</string>
+    <string name="full_1">Palem Kuning</string>
+    <string name="full_3">Rumput Payung</string>
+    <string name="spring_1">African Violet</string>
+    <string name="spring_2">Adam Hawa</string>
+    <string name="spring_3">Keladi Hias</string>
+    <string name="low_1">Lidah Mertua</string>
+    <string name="low_2">Pakis Kelabang</string>
+    <string name="low_3">Pakis Keriting</string>
+    <string name="light_value">Intensitas Cahaya</string>
+    <string name="light_range">Rentang Cahaya</string>
+    <string name="light_title_widget">"Intentsitas cahaya di lokasi Anda: "</string>
+    <string name="style">Mode Gelap</string>
+    <string name="app_desc">Plantemos merupakan aplikasi yang memberikan informasi rekomendasi tanaman hias yang cocok ditanam berdasarkan intensitas cahaya lokasi pengguna.</string>
+    <string name="title_type">Jenis Tanaman Hias Berdasarkan Intensitas Cahaya Yang Dibutuhkan :</string>
+    <string name="go">Pergi!</string>
+    <string name="types_of_plants">Jenis tumbuhan berdasarkan kebutuhan cahaya :</string>
+    <string name="get">Dapatkan rekomendasi tanaman yang cocok ditanam di lokasi dan lingkungan Anda!</string>
+</resources>
